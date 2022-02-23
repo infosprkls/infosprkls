@@ -1,0 +1,101 @@
+@import '../base/variables';
+.custom-checkbox {
+    &.custom-switch {
+        padding: 0;
+        .custom-control-label {
+            &:before {
+                width: 55px;
+                height: 23px;
+                background-color: lighten(color(nav-search), $amount: 16);
+                border: 0;
+                border-radius: 30px;
+                cursor: pointer;
+            }
+            &:after {
+                background-color: #fff;
+                top: 7.4px;
+                left: -32px;
+                width: 16px;
+                height: 16px;
+                cursor: pointer;
+            }
+        }
+        input:checked ~ {
+            .custom-control-label {
+                &:after {
+                    transform: translateX(1.9rem);
+                }
+                &:before {
+                    background-color: color(primary-color);
+                }
+            } 
+        }
+        input:focus ~ {
+            .custom-control-label {
+                &:before {
+                    box-shadow: none;
+                }
+            } 
+        }
+        input:active ~ {
+            .custom-control-label {
+                &:before {
+                    background-color: lighten(color(primary-color), $amount: 22);
+                }
+            } 
+        }
+        input {
+            &[active] ~ {
+               .custom-control-label {
+                   &:before {
+                       background-color: lighten(color(primary-color), $amount: 20);
+                   }
+               } 
+            }
+        }
+    }
+    &.custom-check {
+        border-radius: 4px;
+        .custom-control-label {
+            &::before, &:after {
+                width: 19px;
+                height: 19px;
+                top: 50%;
+                transform: translate(0, -50%);
+                cursor: pointer;
+            }
+            &:after {
+                background:url('../../images/dashboard/check.png') no-repeat center center;
+                background-size: 0;
+                transition: all .2s linear;
+            }
+        }
+        input:checked +  {
+            .custom-control-label {
+                &::before {
+                    background-color: transparent;
+                    border-color: color(primary-color);
+                }
+                &:after {
+                    background:url('../../images/dashboard/check.png') no-repeat center center;
+                    background-size: 81%;
+                    transition: all .2s linear;
+                }
+            }
+        }
+        input:active + , input:focus +  {
+            .custom-control-label {
+                &::before, &:after {
+                    background-color: transparent;
+                    border-color: color(primary-color);
+                    box-shadow: none;
+                }
+            }
+        }
+        label {
+            padding-left: 10px;
+            font-size: 14px;
+            font-weight: 400;
+        }
+    }
+}

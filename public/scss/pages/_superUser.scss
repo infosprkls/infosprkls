@@ -1,0 +1,115 @@
+@import '../base/variables';
+@import '../base/typography';
+@import '../layout/card.scss';
+@import '../components/tooltip';
+@import '../components/daterange';
+.custom-card-form {
+    width: calc(100% - 24px);
+    height: 24px;
+    .vue-daterange-picker {
+        box-shadow: none;
+        .form-control.reportrange-text {
+            font-size: 14px;
+            height: unset;
+            padding: 2px 0 0;
+            background-color: transparent;
+        }
+    }
+}
+.row {
+    .custom-lg-width {
+        @media screen and (max-width:1250px) and (min-width:1199px) {
+            flex: 0 0 50%;
+            max-width: 50%;
+        }
+    }
+}
+.card {
+    .card-header {
+        .content-card-right {
+            &.multiple {
+                @media screen and (max-width:820px) {
+                    width: 100%;
+                    margin-top: 10px;
+                    a {
+                        width: 31%;
+                        margin-right: unset;
+                        margin-left: auto;
+                        &:first-child {
+                            margin-left: unset;
+                        }
+                    }
+                }
+                @media screen and (max-width:656px) {
+                    a {
+                        width: 45%;
+                        margin-bottom: 10px;
+                        margin-left: unset;
+                        &:nth-child(even) {
+                            margin-left: auto;
+                        }
+                    }
+                }
+                @media screen and (max-width:575px) {
+                    a {
+                        width: 48%;
+                        border-radius: 4px;
+                        span {
+                            display: inline-block;
+                        }
+                    }
+                }
+                @media screen and (max-width:470px) {
+                    a {
+                        width: 100%;
+                        span {
+                            width: 120px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+.uploaded-image {
+    height: 150px;
+    padding: 7px 9px;
+    border: 2px dashed lighten(color(light-gray), $amount:6);
+    border-radius: 2px;
+     img {
+        width: 100%;
+        height: 100%;
+        border-radius: 4px;
+        object-fit: cover;
+        box-shadow: 0px 0px 4px rgba(82, 81, 81, 0.2);
+     }
+}
+form {
+    &.custom-form {
+        .superuser-upload {
+            .upload-label {
+                padding: 47.5px 0;
+            }
+        }
+    }
+    .preview-image + .btn {
+        &.btn-theme {
+            @include btn-theme(color(primary-color), #fff);
+            padding: 8px 30px;
+        }
+    }
+}
+.logo-text {
+    p {
+        font-size: 13px;
+        color: color(nav-search);
+        font-weight: 500;
+    }
+}
+table {
+    &.table-super {
+        @media screen and (max-width:767px) {
+            min-width: 650px;
+        }
+    }
+}

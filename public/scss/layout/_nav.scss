@@ -1,0 +1,171 @@
+@import "../base/variables";
+@import "../layout/form";
+@import "../components/buttons";
+@import"../components/dropdowns";
+@import '../base/mixin';
+nav {
+    padding: 12px 0;
+    background-color: color(body-color);
+    a {
+        &.navbar-brand {
+            padding: 0.625rem 0;
+            margin: 0 1rem;
+            height: 50px;
+            font-size: 18px;
+            font-weight: 300;
+            color: color(gray-color);
+        }
+    }
+    ul {
+        top: -1px;
+        li {
+            a {
+                i {
+                    &.material-icons {
+                        font-size: 20px;
+                        margin-right: 3px;
+                        max-width: 24px;
+                        color: color(gray-color);
+                        &.code {
+                            font-size: 24px;
+                            color: color(primary-color);
+                            position: relative;
+                            top: 2px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .nav-link {
+       padding: 7.5px 15px;
+       font-weight: 400;
+       font-size: 12px;
+       margin-left: 4px;
+       border-radius: 3px;
+    }
+    form {
+        width: 202px;
+        position: relative;
+        top: -2px;
+        .form-group {
+            width: 100%;
+             div {
+                display: flex;
+                input {
+                  max-width: 159px;
+                }
+            }
+        }
+    }
+    .overlay-layer {
+        pointer-events: none;
+        opacity: 0;
+        z-index: -100;
+         &:before {
+            @include pseudo_function ('', absolute, 100%, 100vh, 0, 0, 0, 0, rgba(0, 0, 0, 0.35));
+        }
+    }
+    .btn-toggler {
+        &.btn_animate {
+            span {
+                position: relative;
+                &:first-child {
+                top: 6px;
+                -webkit-animation: topbar-x 500ms linear 0s;
+                animation: topbar-x 500ms 0s;
+                -webkit-animation-fill-mode: forwards;
+                animation-fill-mode: forwards;
+                }
+                &:nth-child(2) {
+                    opacity: 0;
+                }
+                &:last-child {
+                bottom: 6px;
+                -webkit-animation: bottombar-x 500ms linear 0s;
+                animation: bottombar-x 500ms 0s;
+                -webkit-animation-fill-mode: forwards;
+                animation-fill-mode: forwards;
+                }
+            }
+        }
+    }
+}
+@keyframes bottombar-x {
+    0% {
+      bottom: 0px;
+      transform: rotate(0deg);
+    }
+
+    45% {
+      bottom: 6px;
+      transform: rotate(-145deg);
+    }
+
+    75% {
+      transform: rotate(-130deg);
+    }
+
+    100% {
+      transform: rotate(-135deg);
+    }
+}
+
+@-webkit-keyframes bottombar-x {
+    0% {
+      bottom: 0px;
+      -webkit-transform: rotate(0deg);
+    }
+
+    45% {
+      bottom: 6px;
+      -webkit-transform: rotate(-145deg);
+    }
+
+    75% {
+      -webkit-transform: rotate(-130deg);
+    }
+
+    100% {
+      -webkit-transform: rotate(-135deg);
+    }
+}
+@keyframes topbar-x {
+    0% {
+      top: 0px;
+      transform: rotate(0deg);
+    }
+
+    45% {
+      top: 6px;
+      transform: rotate(145deg);
+    }
+
+    75% {
+      transform: rotate(130deg);
+    }
+
+    100% {
+      transform: rotate(135deg);
+    }
+}
+
+@-webkit-keyframes topbar-x {
+    0% {
+      top: 0px;
+      -webkit-transform: rotate(0deg);
+    }
+
+    45% {
+      top: 6px;
+      -webkit-transform: rotate(145deg);
+    }
+
+    75% {
+      -webkit-transform: rotate(130deg);
+    }
+
+    100% {
+      -webkit-transform: rotate(135deg);
+    }
+}

@@ -1,0 +1,7 @@
+@extends('layouts.vue_app')
+@section('page-script-head')
+<!-- <link href="{{ asset('material') }}/css/style.css" rel="stylesheet" /> -->
+@endsection
+@section('content')
+    <admin-users-index :user="{{ auth()->user()?auth()->user():'null' }}"></admin-users-index>
+@endsection

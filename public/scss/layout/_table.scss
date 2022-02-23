@@ -1,0 +1,153 @@
+@import '../base/variables';
+.table-responsive {
+    overflow-x: auto;
+    border-radius: 4px 4px 0 0;
+    table {
+        &.custom-table {
+            thead {
+                border-radius: 4px 4px 0 0;
+                tr {
+                    padding-bottom: 10px;
+                    border-bottom: 1px solid #ddd;
+                    th {
+                        font-size: 1.063rem;
+                        font-weight: 300;
+                        color: color(primary-color);
+                        border: none;
+                        &:focus {
+                            outline: none;
+                        }
+                        &.action {
+                            text-align: right;
+                        }
+                    }
+                }
+            }
+            tbody {
+                tr {
+                    td {
+                        font-size: 14px;
+                        font-weight: 300;
+                        color: color(table-td);
+                        a {
+                            color: color(primary-color);
+                        }
+                        &.action {
+                            text-align: right;
+                            a {
+                                margin: 0;
+                                padding: 5px;
+                                &.edit {
+                                    color: color(action-edit);
+                                }
+                                &.cancel {
+                                    color: color(action-cancel);
+                                }
+                                &.view {
+                                    color: color(light-gray);
+                                    i {
+                                        font-size: 22px;
+                                    }
+                                }
+                                i {
+                                    font-size: 1.1rem;
+                                    vertical-align: middle;
+                                }
+                                &:focus {
+                                    outline: none;
+                                }
+                            }
+                            &.two-content {
+                                min-width: 79px;
+                            }
+                        }
+                        span {
+                            &.status {
+                                padding: 4px 10px;
+                                border-radius: 4px;
+                                width: 100px;
+                                color: #fff;
+                                box-shadow: 2px 2px 4px rgba(185, 185, 185, 0.3);
+                                &.progresed {
+                                    background-color: lighten(color(secondary-color), $amount: 16);
+                                }
+                                &.completed {
+                                    background-color: lighten(color(action-edit), $amount: 10);
+                                }
+                                &.rejected {
+                                    background-color: lighten(color(action-cancel), $amount: 10);
+                                }
+                                &.question {
+                                    background-color: lighten(color(heading-color), $amount: 18);
+                                }
+                                
+                            }
+                        }
+                        
+                    }
+                    border-bottom: 1px solid #ddd;
+                    &:last-child {
+                        border: none;
+                    }
+                }
+                &.no-header {
+                    tr {
+                        &:first-child {
+                            td {
+                                border-top: none;
+                                padding-top: 0;
+                            }
+                        }
+                    }
+                }
+            }
+            th, td {
+                padding: 12px 8px;
+            }
+        }
+        &.table-user {
+            min-width: 889px;
+            th,td {
+                &:first-child {
+                    min-width: 184px;
+                }
+            }
+        }
+        &.service-table {
+            min-width: 847px;
+            margin-bottom: 1rem;
+        }
+        &.table-dashboard {
+            @media screen and (max-width:575px) {
+                min-width: 552px;
+            }
+        }
+        &.table-checkbox {
+            td {
+                &.checkbox-wrapper {
+                    max-width: 40px;
+                    max-height: 40px;
+                    border-radius: 50%;
+                }
+            }
+        }
+    }
+    &::-webkit-scrollbar {
+        width: 6px;
+        height: 10px;
+        background-color: #f3d0fb;
+        border-radius: 30px;
+    }
+    &::-webkit-scrollbar-track{
+        -webkit-border-radius:30px;
+        border-radius:30px;
+        background:transparent;
+        border:none;
+        box-shadow:none;
+    }
+    &::-webkit-scrollbar-thumb{
+        -webkit-border-radius:5px;
+        border-radius:5px;
+        background: #a65ab7;
+    } 
+}

@@ -1,0 +1,49 @@
+.horizontal-tabs {
+  margin-top: 10px;
+}
+
+.horizontal-tabs ul li {
+  display: inline-block;
+}
+
+.horizontal-tabs ul li a {
+  border-radius: 4px;
+  color: #fff;
+  padding: 9px 14px;
+  font-size: 13px;
+  font-weight: 500;
+  opacity: 0.7;
+  transition: all .3s linear;
+}
+
+.horizontal-tabs ul li a i {
+  font-size: 20px;
+}
+
+.horizontal-tabs ul li a.active {
+  background-color: #cd92d7;
+  opacity: 1;
+  transition: background-color 0.8s linear;
+}
+
+.horizontal-tabs ul li a:hover {
+  opacity: 1;
+}
+
+@media screen and (max-width: 1195px) {
+  .horizontal-tabs ul {
+    white-space: nowrap;
+    overflow-x: scroll;
+  }
+}
+
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity .5s;
+}
+
+.fade-enter,
+.fade-leave-to {
+  opacity: 0;
+}
+

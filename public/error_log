@@ -1,0 +1,842 @@
+[27-Dec-2021 18:28:29 Europe/Amsterdam] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php:830
+Stack trace:
+#0 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(830): ReflectionClass->__construct('view')
+#1 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(712): Illuminate\Container\Container->build('view')
+#2 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(841): Illuminate\Container\Container->resolve('view', Array, true)
+#3 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(651): Illuminate\Foundation\Application->resolve('view', Array)
+#4 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(826): Illuminate\Container\Container->make('view', Array)
+#5 /home/propltqo/p in /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 832
+[27-Dec-2021 18:28:32 Europe/Amsterdam] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php:830
+Stack trace:
+#0 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(830): ReflectionClass->__construct('view')
+#1 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(712): Illuminate\Container\Container->build('view')
+#2 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(841): Illuminate\Container\Container->resolve('view', Array, true)
+#3 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(651): Illuminate\Foundation\Application->resolve('view', Array)
+#4 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(826): Illuminate\Container\Container->make('view', Array)
+#5 /home/propltqo/p in /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 832
+[27-Dec-2021 18:28:33 Europe/Amsterdam] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php:830
+Stack trace:
+#0 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(830): ReflectionClass->__construct('view')
+#1 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(712): Illuminate\Container\Container->build('view')
+#2 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(841): Illuminate\Container\Container->resolve('view', Array, true)
+#3 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(651): Illuminate\Foundation\Application->resolve('view', Array)
+#4 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(826): Illuminate\Container\Container->make('view', Array)
+#5 /home/propltqo/p in /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 832
+[27-Dec-2021 18:28:36 Europe/Amsterdam] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php:830
+Stack trace:
+#0 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(830): ReflectionClass->__construct('view')
+#1 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(712): Illuminate\Container\Container->build('view')
+#2 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(841): Illuminate\Container\Container->resolve('view', Array, true)
+#3 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(651): Illuminate\Foundation\Application->resolve('view', Array)
+#4 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(826): Illuminate\Container\Container->make('view', Array)
+#5 /home/propltqo/p in /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 832
+[27-Dec-2021 21:10:48 Europe/Amsterdam] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php:830
+Stack trace:
+#0 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(830): ReflectionClass->__construct('view')
+#1 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(712): Illuminate\Container\Container->build('view')
+#2 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(841): Illuminate\Container\Container->resolve('view', Array, true)
+#3 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(651): Illuminate\Foundation\Application->resolve('view', Array)
+#4 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(826): Illuminate\Container\Container->make('view', Array)
+#5 /home/propltqo/p in /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 832
+[27-Dec-2021 22:58:48 Europe/Amsterdam] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php:830
+Stack trace:
+#0 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(830): ReflectionClass->__construct('view')
+#1 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(712): Illuminate\Container\Container->build('view')
+#2 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(841): Illuminate\Container\Container->resolve('view', Array, true)
+#3 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(651): Illuminate\Foundation\Application->resolve('view', Array)
+#4 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(826): Illuminate\Container\Container->make('view', Array)
+#5 /home/propltqo/p in /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 832
+[27-Dec-2021 23:01:16 Europe/Amsterdam] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php:830
+Stack trace:
+#0 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(830): ReflectionClass->__construct('view')
+#1 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(712): Illuminate\Container\Container->build('view')
+#2 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(841): Illuminate\Container\Container->resolve('view', Array, true)
+#3 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(651): Illuminate\Foundation\Application->resolve('view', Array)
+#4 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(826): Illuminate\Container\Container->make('view', Array)
+#5 /home/propltqo/p in /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 832
+[27-Dec-2021 23:02:47 Europe/Amsterdam] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php:830
+Stack trace:
+#0 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(830): ReflectionClass->__construct('view')
+#1 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(712): Illuminate\Container\Container->build('view')
+#2 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(841): Illuminate\Container\Container->resolve('view', Array, true)
+#3 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(651): Illuminate\Foundation\Application->resolve('view', Array)
+#4 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(826): Illuminate\Container\Container->make('view', Array)
+#5 /home/propltqo/p in /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 832
+[27-Dec-2021 23:03:07 Europe/Amsterdam] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php:830
+Stack trace:
+#0 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(830): ReflectionClass->__construct('view')
+#1 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(712): Illuminate\Container\Container->build('view')
+#2 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(841): Illuminate\Container\Container->resolve('view', Array, true)
+#3 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(651): Illuminate\Foundation\Application->resolve('view', Array)
+#4 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(826): Illuminate\Container\Container->make('view', Array)
+#5 /home/propltqo/p in /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 832
+[27-Dec-2021 23:03:09 Europe/Amsterdam] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php:830
+Stack trace:
+#0 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(830): ReflectionClass->__construct('view')
+#1 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(712): Illuminate\Container\Container->build('view')
+#2 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(841): Illuminate\Container\Container->resolve('view', Array, true)
+#3 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(651): Illuminate\Foundation\Application->resolve('view', Array)
+#4 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(826): Illuminate\Container\Container->make('view', Array)
+#5 /home/propltqo/p in /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 832
+[27-Dec-2021 23:03:29 Europe/Amsterdam] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php:830
+Stack trace:
+#0 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(830): ReflectionClass->__construct('view')
+#1 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(712): Illuminate\Container\Container->build('view')
+#2 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(841): Illuminate\Container\Container->resolve('view', Array, true)
+#3 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(651): Illuminate\Foundation\Application->resolve('view', Array)
+#4 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(826): Illuminate\Container\Container->make('view', Array)
+#5 /home/propltqo/p in /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 832
+[27-Dec-2021 23:03:50 Europe/Amsterdam] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php:830
+Stack trace:
+#0 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(830): ReflectionClass->__construct('view')
+#1 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(712): Illuminate\Container\Container->build('view')
+#2 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(841): Illuminate\Container\Container->resolve('view', Array, true)
+#3 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(651): Illuminate\Foundation\Application->resolve('view', Array)
+#4 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(826): Illuminate\Container\Container->make('view', Array)
+#5 /home/propltqo/p in /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 832
+[27-Dec-2021 23:03:53 Europe/Amsterdam] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php:830
+Stack trace:
+#0 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(830): ReflectionClass->__construct('view')
+#1 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(712): Illuminate\Container\Container->build('view')
+#2 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(841): Illuminate\Container\Container->resolve('view', Array, true)
+#3 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(651): Illuminate\Foundation\Application->resolve('view', Array)
+#4 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(826): Illuminate\Container\Container->make('view', Array)
+#5 /home/propltqo/p in /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 832
+[27-Dec-2021 23:04:44 Europe/Amsterdam] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php:830
+Stack trace:
+#0 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(830): ReflectionClass->__construct('view')
+#1 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(712): Illuminate\Container\Container->build('view')
+#2 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(841): Illuminate\Container\Container->resolve('view', Array, true)
+#3 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(651): Illuminate\Foundation\Application->resolve('view', Array)
+#4 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(826): Illuminate\Container\Container->make('view', Array)
+#5 /home/propltqo/p in /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 832
+[27-Dec-2021 23:04:46 Europe/Amsterdam] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php:830
+Stack trace:
+#0 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(830): ReflectionClass->__construct('view')
+#1 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(712): Illuminate\Container\Container->build('view')
+#2 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(841): Illuminate\Container\Container->resolve('view', Array, true)
+#3 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(651): Illuminate\Foundation\Application->resolve('view', Array)
+#4 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(826): Illuminate\Container\Container->make('view', Array)
+#5 /home/propltqo/p in /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 832
+[27-Dec-2021 23:04:53 Europe/Amsterdam] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php:830
+Stack trace:
+#0 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(830): ReflectionClass->__construct('view')
+#1 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(712): Illuminate\Container\Container->build('view')
+#2 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(841): Illuminate\Container\Container->resolve('view', Array, true)
+#3 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(651): Illuminate\Foundation\Application->resolve('view', Array)
+#4 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(826): Illuminate\Container\Container->make('view', Array)
+#5 /home/propltqo/p in /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 832
+[27-Dec-2021 23:04:54 Europe/Amsterdam] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php:830
+Stack trace:
+#0 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(830): ReflectionClass->__construct('view')
+#1 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(712): Illuminate\Container\Container->build('view')
+#2 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(841): Illuminate\Container\Container->resolve('view', Array, true)
+#3 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(651): Illuminate\Foundation\Application->resolve('view', Array)
+#4 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(826): Illuminate\Container\Container->make('view', Array)
+#5 /home/propltqo/p in /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 832
+[27-Dec-2021 23:04:56 Europe/Amsterdam] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php:830
+Stack trace:
+#0 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(830): ReflectionClass->__construct('view')
+#1 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(712): Illuminate\Container\Container->build('view')
+#2 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(841): Illuminate\Container\Container->resolve('view', Array, true)
+#3 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(651): Illuminate\Foundation\Application->resolve('view', Array)
+#4 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(826): Illuminate\Container\Container->make('view', Array)
+#5 /home/propltqo/p in /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 832
+[27-Dec-2021 23:08:08 Europe/Amsterdam] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php:830
+Stack trace:
+#0 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(830): ReflectionClass->__construct('view')
+#1 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(712): Illuminate\Container\Container->build('view')
+#2 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(841): Illuminate\Container\Container->resolve('view', Array, true)
+#3 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(651): Illuminate\Foundation\Application->resolve('view', Array)
+#4 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(826): Illuminate\Container\Container->make('view', Array)
+#5 /home/propltqo/p in /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 832
+[27-Dec-2021 23:08:10 Europe/Amsterdam] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php:830
+Stack trace:
+#0 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(830): ReflectionClass->__construct('view')
+#1 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(712): Illuminate\Container\Container->build('view')
+#2 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(841): Illuminate\Container\Container->resolve('view', Array, true)
+#3 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(651): Illuminate\Foundation\Application->resolve('view', Array)
+#4 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(826): Illuminate\Container\Container->make('view', Array)
+#5 /home/propltqo/p in /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 832
+[27-Dec-2021 23:08:51 Europe/Amsterdam] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php:830
+Stack trace:
+#0 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(830): ReflectionClass->__construct('view')
+#1 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(712): Illuminate\Container\Container->build('view')
+#2 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(841): Illuminate\Container\Container->resolve('view', Array, true)
+#3 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(651): Illuminate\Foundation\Application->resolve('view', Array)
+#4 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(826): Illuminate\Container\Container->make('view', Array)
+#5 /home/propltqo/p in /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 832
+[27-Dec-2021 23:16:52 Europe/Amsterdam] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php:830
+Stack trace:
+#0 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(830): ReflectionClass->__construct('view')
+#1 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(712): Illuminate\Container\Container->build('view')
+#2 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(841): Illuminate\Container\Container->resolve('view', Array, true)
+#3 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(651): Illuminate\Foundation\Application->resolve('view', Array)
+#4 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(826): Illuminate\Container\Container->make('view', Array)
+#5 /home/propltqo/p in /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 832
+[27-Dec-2021 23:16:55 Europe/Amsterdam] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php:830
+Stack trace:
+#0 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(830): ReflectionClass->__construct('view')
+#1 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(712): Illuminate\Container\Container->build('view')
+#2 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(841): Illuminate\Container\Container->resolve('view', Array, true)
+#3 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(651): Illuminate\Foundation\Application->resolve('view', Array)
+#4 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(826): Illuminate\Container\Container->make('view', Array)
+#5 /home/propltqo/p in /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 832
+[27-Dec-2021 23:16:58 Europe/Amsterdam] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php:830
+Stack trace:
+#0 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(830): ReflectionClass->__construct('view')
+#1 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(712): Illuminate\Container\Container->build('view')
+#2 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(841): Illuminate\Container\Container->resolve('view', Array, true)
+#3 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(651): Illuminate\Foundation\Application->resolve('view', Array)
+#4 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(826): Illuminate\Container\Container->make('view', Array)
+#5 /home/propltqo/p in /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 832
+[27-Dec-2021 23:17:03 Europe/Amsterdam] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php:830
+Stack trace:
+#0 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(830): ReflectionClass->__construct('view')
+#1 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(712): Illuminate\Container\Container->build('view')
+#2 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(841): Illuminate\Container\Container->resolve('view', Array, true)
+#3 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(651): Illuminate\Foundation\Application->resolve('view', Array)
+#4 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(826): Illuminate\Container\Container->make('view', Array)
+#5 /home/propltqo/p in /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 832
+[27-Dec-2021 23:17:05 Europe/Amsterdam] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php:830
+Stack trace:
+#0 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(830): ReflectionClass->__construct('view')
+#1 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(712): Illuminate\Container\Container->build('view')
+#2 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(841): Illuminate\Container\Container->resolve('view', Array, true)
+#3 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(651): Illuminate\Foundation\Application->resolve('view', Array)
+#4 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(826): Illuminate\Container\Container->make('view', Array)
+#5 /home/propltqo/p in /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 832
+[27-Dec-2021 23:17:06 Europe/Amsterdam] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php:830
+Stack trace:
+#0 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(830): ReflectionClass->__construct('view')
+#1 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(712): Illuminate\Container\Container->build('view')
+#2 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(841): Illuminate\Container\Container->resolve('view', Array, true)
+#3 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(651): Illuminate\Foundation\Application->resolve('view', Array)
+#4 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(826): Illuminate\Container\Container->make('view', Array)
+#5 /home/propltqo/p in /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 832
+[27-Dec-2021 23:17:07 Europe/Amsterdam] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php:830
+Stack trace:
+#0 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(830): ReflectionClass->__construct('view')
+#1 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(712): Illuminate\Container\Container->build('view')
+#2 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(841): Illuminate\Container\Container->resolve('view', Array, true)
+#3 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(651): Illuminate\Foundation\Application->resolve('view', Array)
+#4 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(826): Illuminate\Container\Container->make('view', Array)
+#5 /home/propltqo/p in /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 832
+[27-Dec-2021 23:17:11 Europe/Amsterdam] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php:830
+Stack trace:
+#0 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(830): ReflectionClass->__construct('view')
+#1 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(712): Illuminate\Container\Container->build('view')
+#2 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(841): Illuminate\Container\Container->resolve('view', Array, true)
+#3 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(651): Illuminate\Foundation\Application->resolve('view', Array)
+#4 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(826): Illuminate\Container\Container->make('view', Array)
+#5 /home/propltqo/p in /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 832
+[27-Dec-2021 23:17:28 Europe/Amsterdam] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php:830
+Stack trace:
+#0 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(830): ReflectionClass->__construct('view')
+#1 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(712): Illuminate\Container\Container->build('view')
+#2 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(841): Illuminate\Container\Container->resolve('view', Array, true)
+#3 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(651): Illuminate\Foundation\Application->resolve('view', Array)
+#4 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(826): Illuminate\Container\Container->make('view', Array)
+#5 /home/propltqo/p in /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 832
+[27-Dec-2021 23:19:13 Europe/Amsterdam] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php:830
+Stack trace:
+#0 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(830): ReflectionClass->__construct('view')
+#1 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(712): Illuminate\Container\Container->build('view')
+#2 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(841): Illuminate\Container\Container->resolve('view', Array, true)
+#3 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(651): Illuminate\Foundation\Application->resolve('view', Array)
+#4 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(826): Illuminate\Container\Container->make('view', Array)
+#5 /home/propltqo/p in /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 832
+[27-Dec-2021 23:19:38 Europe/Amsterdam] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php:830
+Stack trace:
+#0 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(830): ReflectionClass->__construct('view')
+#1 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(712): Illuminate\Container\Container->build('view')
+#2 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(841): Illuminate\Container\Container->resolve('view', Array, true)
+#3 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(651): Illuminate\Foundation\Application->resolve('view', Array)
+#4 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(826): Illuminate\Container\Container->make('view', Array)
+#5 /home/propltqo/p in /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 832
+[27-Dec-2021 23:20:29 Europe/Amsterdam] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php:830
+Stack trace:
+#0 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(830): ReflectionClass->__construct('view')
+#1 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(712): Illuminate\Container\Container->build('view')
+#2 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(841): Illuminate\Container\Container->resolve('view', Array, true)
+#3 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(651): Illuminate\Foundation\Application->resolve('view', Array)
+#4 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(826): Illuminate\Container\Container->make('view', Array)
+#5 /home/propltqo/p in /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 832
+[27-Dec-2021 23:20:37 Europe/Amsterdam] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php:830
+Stack trace:
+#0 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(830): ReflectionClass->__construct('view')
+#1 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(712): Illuminate\Container\Container->build('view')
+#2 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(841): Illuminate\Container\Container->resolve('view', Array, true)
+#3 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(651): Illuminate\Foundation\Application->resolve('view', Array)
+#4 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(826): Illuminate\Container\Container->make('view', Array)
+#5 /home/propltqo/p in /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 832
+[27-Dec-2021 23:20:43 Europe/Amsterdam] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php:830
+Stack trace:
+#0 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(830): ReflectionClass->__construct('view')
+#1 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(712): Illuminate\Container\Container->build('view')
+#2 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(841): Illuminate\Container\Container->resolve('view', Array, true)
+#3 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(651): Illuminate\Foundation\Application->resolve('view', Array)
+#4 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(826): Illuminate\Container\Container->make('view', Array)
+#5 /home/propltqo/p in /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 832
+[27-Dec-2021 23:20:52 Europe/Amsterdam] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php:830
+Stack trace:
+#0 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(830): ReflectionClass->__construct('view')
+#1 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(712): Illuminate\Container\Container->build('view')
+#2 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(841): Illuminate\Container\Container->resolve('view', Array, true)
+#3 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(651): Illuminate\Foundation\Application->resolve('view', Array)
+#4 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(826): Illuminate\Container\Container->make('view', Array)
+#5 /home/propltqo/p in /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 832
+[27-Dec-2021 23:21:19 Europe/Amsterdam] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php:830
+Stack trace:
+#0 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(830): ReflectionClass->__construct('view')
+#1 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(712): Illuminate\Container\Container->build('view')
+#2 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(841): Illuminate\Container\Container->resolve('view', Array, true)
+#3 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(651): Illuminate\Foundation\Application->resolve('view', Array)
+#4 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(826): Illuminate\Container\Container->make('view', Array)
+#5 /home/propltqo/p in /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 832
+[27-Dec-2021 23:21:21 Europe/Amsterdam] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php:830
+Stack trace:
+#0 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(830): ReflectionClass->__construct('view')
+#1 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(712): Illuminate\Container\Container->build('view')
+#2 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(841): Illuminate\Container\Container->resolve('view', Array, true)
+#3 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(651): Illuminate\Foundation\Application->resolve('view', Array)
+#4 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(826): Illuminate\Container\Container->make('view', Array)
+#5 /home/propltqo/p in /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 832
+[27-Dec-2021 23:21:22 Europe/Amsterdam] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php:830
+Stack trace:
+#0 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(830): ReflectionClass->__construct('view')
+#1 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(712): Illuminate\Container\Container->build('view')
+#2 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(841): Illuminate\Container\Container->resolve('view', Array, true)
+#3 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(651): Illuminate\Foundation\Application->resolve('view', Array)
+#4 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(826): Illuminate\Container\Container->make('view', Array)
+#5 /home/propltqo/p in /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 832
+[27-Dec-2021 23:21:23 Europe/Amsterdam] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php:830
+Stack trace:
+#0 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(830): ReflectionClass->__construct('view')
+#1 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(712): Illuminate\Container\Container->build('view')
+#2 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(841): Illuminate\Container\Container->resolve('view', Array, true)
+#3 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(651): Illuminate\Foundation\Application->resolve('view', Array)
+#4 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(826): Illuminate\Container\Container->make('view', Array)
+#5 /home/propltqo/p in /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 832
+[27-Dec-2021 23:21:31 Europe/Amsterdam] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php:830
+Stack trace:
+#0 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(830): ReflectionClass->__construct('view')
+#1 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(712): Illuminate\Container\Container->build('view')
+#2 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(841): Illuminate\Container\Container->resolve('view', Array, true)
+#3 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(651): Illuminate\Foundation\Application->resolve('view', Array)
+#4 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(826): Illuminate\Container\Container->make('view', Array)
+#5 /home/propltqo/p in /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 832
+[27-Dec-2021 23:21:35 Europe/Amsterdam] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php:830
+Stack trace:
+#0 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(830): ReflectionClass->__construct('view')
+#1 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(712): Illuminate\Container\Container->build('view')
+#2 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(841): Illuminate\Container\Container->resolve('view', Array, true)
+#3 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(651): Illuminate\Foundation\Application->resolve('view', Array)
+#4 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(826): Illuminate\Container\Container->make('view', Array)
+#5 /home/propltqo/p in /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 832
+[27-Dec-2021 23:21:37 Europe/Amsterdam] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php:830
+Stack trace:
+#0 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(830): ReflectionClass->__construct('view')
+#1 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(712): Illuminate\Container\Container->build('view')
+#2 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(841): Illuminate\Container\Container->resolve('view', Array, true)
+#3 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(651): Illuminate\Foundation\Application->resolve('view', Array)
+#4 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(826): Illuminate\Container\Container->make('view', Array)
+#5 /home/propltqo/p in /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 832
+[27-Dec-2021 23:21:39 Europe/Amsterdam] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php:830
+Stack trace:
+#0 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(830): ReflectionClass->__construct('view')
+#1 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(712): Illuminate\Container\Container->build('view')
+#2 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(841): Illuminate\Container\Container->resolve('view', Array, true)
+#3 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(651): Illuminate\Foundation\Application->resolve('view', Array)
+#4 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(826): Illuminate\Container\Container->make('view', Array)
+#5 /home/propltqo/p in /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 832
+[27-Dec-2021 23:24:00 Europe/Amsterdam] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php:830
+Stack trace:
+#0 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(830): ReflectionClass->__construct('view')
+#1 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(712): Illuminate\Container\Container->build('view')
+#2 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(841): Illuminate\Container\Container->resolve('view', Array, true)
+#3 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(651): Illuminate\Foundation\Application->resolve('view', Array)
+#4 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(826): Illuminate\Container\Container->make('view', Array)
+#5 /home/propltqo/p in /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 832
+[27-Dec-2021 23:24:01 Europe/Amsterdam] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php:830
+Stack trace:
+#0 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(830): ReflectionClass->__construct('view')
+#1 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(712): Illuminate\Container\Container->build('view')
+#2 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(841): Illuminate\Container\Container->resolve('view', Array, true)
+#3 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(651): Illuminate\Foundation\Application->resolve('view', Array)
+#4 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(826): Illuminate\Container\Container->make('view', Array)
+#5 /home/propltqo/p in /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 832
+[27-Dec-2021 23:24:04 Europe/Amsterdam] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php:830
+Stack trace:
+#0 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(830): ReflectionClass->__construct('view')
+#1 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(712): Illuminate\Container\Container->build('view')
+#2 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(841): Illuminate\Container\Container->resolve('view', Array, true)
+#3 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(651): Illuminate\Foundation\Application->resolve('view', Array)
+#4 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(826): Illuminate\Container\Container->make('view', Array)
+#5 /home/propltqo/p in /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 832
+[27-Dec-2021 23:24:05 Europe/Amsterdam] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php:830
+Stack trace:
+#0 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(830): ReflectionClass->__construct('view')
+#1 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(712): Illuminate\Container\Container->build('view')
+#2 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(841): Illuminate\Container\Container->resolve('view', Array, true)
+#3 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(651): Illuminate\Foundation\Application->resolve('view', Array)
+#4 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(826): Illuminate\Container\Container->make('view', Array)
+#5 /home/propltqo/p in /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 832
+[27-Dec-2021 23:27:43 Europe/Amsterdam] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php:830
+Stack trace:
+#0 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(830): ReflectionClass->__construct('view')
+#1 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(712): Illuminate\Container\Container->build('view')
+#2 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(841): Illuminate\Container\Container->resolve('view', Array, true)
+#3 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(651): Illuminate\Foundation\Application->resolve('view', Array)
+#4 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(826): Illuminate\Container\Container->make('view', Array)
+#5 /home/propltqo/p in /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 832
+[27-Dec-2021 23:43:01 Europe/Amsterdam] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php:830
+Stack trace:
+#0 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(830): ReflectionClass->__construct('view')
+#1 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(712): Illuminate\Container\Container->build('view')
+#2 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(841): Illuminate\Container\Container->resolve('view', Array, true)
+#3 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(651): Illuminate\Foundation\Application->resolve('view', Array)
+#4 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(826): Illuminate\Container\Container->make('view', Array)
+#5 /home/propltqo/p in /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 832
+[27-Dec-2021 23:43:01 Europe/Amsterdam] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php:830
+Stack trace:
+#0 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(830): ReflectionClass->__construct('view')
+#1 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(712): Illuminate\Container\Container->build('view')
+#2 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(841): Illuminate\Container\Container->resolve('view', Array, true)
+#3 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(651): Illuminate\Foundation\Application->resolve('view', Array)
+#4 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(826): Illuminate\Container\Container->make('view', Array)
+#5 /home/propltqo/p in /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 832
+[28-Dec-2021 00:29:15 Europe/Amsterdam] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php:830
+Stack trace:
+#0 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(830): ReflectionClass->__construct('view')
+#1 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(712): Illuminate\Container\Container->build('view')
+#2 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(841): Illuminate\Container\Container->resolve('view', Array, true)
+#3 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(651): Illuminate\Foundation\Application->resolve('view', Array)
+#4 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(826): Illuminate\Container\Container->make('view', Array)
+#5 /home/propltqo/p in /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 832
+[28-Dec-2021 00:29:18 Europe/Amsterdam] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php:830
+Stack trace:
+#0 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(830): ReflectionClass->__construct('view')
+#1 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(712): Illuminate\Container\Container->build('view')
+#2 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(841): Illuminate\Container\Container->resolve('view', Array, true)
+#3 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(651): Illuminate\Foundation\Application->resolve('view', Array)
+#4 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(826): Illuminate\Container\Container->make('view', Array)
+#5 /home/propltqo/p in /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 832
+[28-Dec-2021 00:29:19 Europe/Amsterdam] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php:830
+Stack trace:
+#0 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(830): ReflectionClass->__construct('view')
+#1 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(712): Illuminate\Container\Container->build('view')
+#2 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(841): Illuminate\Container\Container->resolve('view', Array, true)
+#3 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(651): Illuminate\Foundation\Application->resolve('view', Array)
+#4 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(826): Illuminate\Container\Container->make('view', Array)
+#5 /home/propltqo/p in /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 832
+[28-Dec-2021 00:29:22 Europe/Amsterdam] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php:830
+Stack trace:
+#0 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(830): ReflectionClass->__construct('view')
+#1 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(712): Illuminate\Container\Container->build('view')
+#2 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(841): Illuminate\Container\Container->resolve('view', Array, true)
+#3 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(651): Illuminate\Foundation\Application->resolve('view', Array)
+#4 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(826): Illuminate\Container\Container->make('view', Array)
+#5 /home/propltqo/p in /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 832
+[28-Dec-2021 00:58:19 Europe/Amsterdam] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php:830
+Stack trace:
+#0 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(830): ReflectionClass->__construct('view')
+#1 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(712): Illuminate\Container\Container->build('view')
+#2 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(841): Illuminate\Container\Container->resolve('view', Array, true)
+#3 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(651): Illuminate\Foundation\Application->resolve('view', Array)
+#4 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(826): Illuminate\Container\Container->make('view', Array)
+#5 /home/propltqo/p in /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 832
+[28-Dec-2021 06:07:10 Europe/Amsterdam] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php:830
+Stack trace:
+#0 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(830): ReflectionClass->__construct('view')
+#1 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(712): Illuminate\Container\Container->build('view')
+#2 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(841): Illuminate\Container\Container->resolve('view', Array, true)
+#3 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(651): Illuminate\Foundation\Application->resolve('view', Array)
+#4 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(826): Illuminate\Container\Container->make('view', Array)
+#5 /home/propltqo/p in /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 832
+[28-Dec-2021 06:08:17 Europe/Amsterdam] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php:830
+Stack trace:
+#0 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(830): ReflectionClass->__construct('view')
+#1 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(712): Illuminate\Container\Container->build('view')
+#2 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(841): Illuminate\Container\Container->resolve('view', Array, true)
+#3 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(651): Illuminate\Foundation\Application->resolve('view', Array)
+#4 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(826): Illuminate\Container\Container->make('view', Array)
+#5 /home/propltqo/p in /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 832
+[28-Dec-2021 06:08:23 Europe/Amsterdam] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php:830
+Stack trace:
+#0 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(830): ReflectionClass->__construct('view')
+#1 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(712): Illuminate\Container\Container->build('view')
+#2 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(841): Illuminate\Container\Container->resolve('view', Array, true)
+#3 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(651): Illuminate\Foundation\Application->resolve('view', Array)
+#4 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(826): Illuminate\Container\Container->make('view', Array)
+#5 /home/propltqo/p in /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 832
+[28-Dec-2021 06:08:36 Europe/Amsterdam] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php:830
+Stack trace:
+#0 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(830): ReflectionClass->__construct('view')
+#1 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(712): Illuminate\Container\Container->build('view')
+#2 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(841): Illuminate\Container\Container->resolve('view', Array, true)
+#3 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(651): Illuminate\Foundation\Application->resolve('view', Array)
+#4 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(826): Illuminate\Container\Container->make('view', Array)
+#5 /home/propltqo/p in /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 832
+[28-Dec-2021 06:11:02 Europe/Amsterdam] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php:830
+Stack trace:
+#0 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(830): ReflectionClass->__construct('view')
+#1 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(712): Illuminate\Container\Container->build('view')
+#2 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(841): Illuminate\Container\Container->resolve('view', Array, true)
+#3 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(651): Illuminate\Foundation\Application->resolve('view', Array)
+#4 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(826): Illuminate\Container\Container->make('view', Array)
+#5 /home/propltqo/p in /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 832
+[28-Dec-2021 06:12:06 Europe/Amsterdam] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php:830
+Stack trace:
+#0 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(830): ReflectionClass->__construct('view')
+#1 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(712): Illuminate\Container\Container->build('view')
+#2 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(841): Illuminate\Container\Container->resolve('view', Array, true)
+#3 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(651): Illuminate\Foundation\Application->resolve('view', Array)
+#4 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(826): Illuminate\Container\Container->make('view', Array)
+#5 /home/propltqo/p in /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 832
+[28-Dec-2021 06:12:17 Europe/Amsterdam] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php:830
+Stack trace:
+#0 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(830): ReflectionClass->__construct('view')
+#1 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(712): Illuminate\Container\Container->build('view')
+#2 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(841): Illuminate\Container\Container->resolve('view', Array, true)
+#3 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(651): Illuminate\Foundation\Application->resolve('view', Array)
+#4 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(826): Illuminate\Container\Container->make('view', Array)
+#5 /home/propltqo/p in /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 832
+[28-Dec-2021 06:15:28 Europe/Amsterdam] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php:830
+Stack trace:
+#0 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(830): ReflectionClass->__construct('view')
+#1 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(712): Illuminate\Container\Container->build('view')
+#2 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(841): Illuminate\Container\Container->resolve('view', Array, true)
+#3 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(651): Illuminate\Foundation\Application->resolve('view', Array)
+#4 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(826): Illuminate\Container\Container->make('view', Array)
+#5 /home/propltqo/p in /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 832
+[28-Dec-2021 06:16:05 Europe/Amsterdam] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php:830
+Stack trace:
+#0 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(830): ReflectionClass->__construct('view')
+#1 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(712): Illuminate\Container\Container->build('view')
+#2 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(841): Illuminate\Container\Container->resolve('view', Array, true)
+#3 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(651): Illuminate\Foundation\Application->resolve('view', Array)
+#4 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(826): Illuminate\Container\Container->make('view', Array)
+#5 /home/propltqo/p in /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 832
+[28-Dec-2021 06:16:18 Europe/Amsterdam] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php:830
+Stack trace:
+#0 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(830): ReflectionClass->__construct('view')
+#1 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(712): Illuminate\Container\Container->build('view')
+#2 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(841): Illuminate\Container\Container->resolve('view', Array, true)
+#3 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(651): Illuminate\Foundation\Application->resolve('view', Array)
+#4 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(826): Illuminate\Container\Container->make('view', Array)
+#5 /home/propltqo/p in /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 832
+[28-Dec-2021 06:20:13 Europe/Amsterdam] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php:830
+Stack trace:
+#0 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(830): ReflectionClass->__construct('view')
+#1 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(712): Illuminate\Container\Container->build('view')
+#2 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(841): Illuminate\Container\Container->resolve('view', Array, true)
+#3 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(651): Illuminate\Foundation\Application->resolve('view', Array)
+#4 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(826): Illuminate\Container\Container->make('view', Array)
+#5 /home/propltqo/p in /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 832
+[28-Dec-2021 06:21:58 Europe/Amsterdam] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php:830
+Stack trace:
+#0 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(830): ReflectionClass->__construct('view')
+#1 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(712): Illuminate\Container\Container->build('view')
+#2 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(841): Illuminate\Container\Container->resolve('view', Array, true)
+#3 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(651): Illuminate\Foundation\Application->resolve('view', Array)
+#4 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(826): Illuminate\Container\Container->make('view', Array)
+#5 /home/propltqo/p in /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 832
+[28-Dec-2021 06:22:44 Europe/Amsterdam] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php:830
+Stack trace:
+#0 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(830): ReflectionClass->__construct('view')
+#1 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(712): Illuminate\Container\Container->build('view')
+#2 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(841): Illuminate\Container\Container->resolve('view', Array, true)
+#3 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(651): Illuminate\Foundation\Application->resolve('view', Array)
+#4 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(826): Illuminate\Container\Container->make('view', Array)
+#5 /home/propltqo/p in /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 832
+[28-Dec-2021 06:26:55 Europe/Amsterdam] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php:830
+Stack trace:
+#0 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(830): ReflectionClass->__construct('view')
+#1 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(712): Illuminate\Container\Container->build('view')
+#2 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(841): Illuminate\Container\Container->resolve('view', Array, true)
+#3 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(651): Illuminate\Foundation\Application->resolve('view', Array)
+#4 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(826): Illuminate\Container\Container->make('view', Array)
+#5 /home/propltqo/p in /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 832
+[28-Dec-2021 06:42:55 Europe/Amsterdam] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php:830
+Stack trace:
+#0 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(830): ReflectionClass->__construct('view')
+#1 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(712): Illuminate\Container\Container->build('view')
+#2 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(841): Illuminate\Container\Container->resolve('view', Array, true)
+#3 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(651): Illuminate\Foundation\Application->resolve('view', Array)
+#4 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(826): Illuminate\Container\Container->make('view', Array)
+#5 /home/propltqo/p in /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 832
+[28-Dec-2021 06:42:55 Europe/Amsterdam] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php:830
+Stack trace:
+#0 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(830): ReflectionClass->__construct('view')
+#1 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(712): Illuminate\Container\Container->build('view')
+#2 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(841): Illuminate\Container\Container->resolve('view', Array, true)
+#3 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(651): Illuminate\Foundation\Application->resolve('view', Array)
+#4 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(826): Illuminate\Container\Container->make('view', Array)
+#5 /home/propltqo/p in /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 832
+[28-Dec-2021 07:20:17 Europe/Amsterdam] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php:830
+Stack trace:
+#0 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(830): ReflectionClass->__construct('view')
+#1 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(712): Illuminate\Container\Container->build('view')
+#2 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(841): Illuminate\Container\Container->resolve('view', Array, true)
+#3 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(651): Illuminate\Foundation\Application->resolve('view', Array)
+#4 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(826): Illuminate\Container\Container->make('view', Array)
+#5 /home/propltqo/p in /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 832
+[28-Dec-2021 07:20:19 Europe/Amsterdam] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php:830
+Stack trace:
+#0 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(830): ReflectionClass->__construct('view')
+#1 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(712): Illuminate\Container\Container->build('view')
+#2 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(841): Illuminate\Container\Container->resolve('view', Array, true)
+#3 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(651): Illuminate\Foundation\Application->resolve('view', Array)
+#4 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(826): Illuminate\Container\Container->make('view', Array)
+#5 /home/propltqo/p in /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 832
+[28-Dec-2021 07:23:52 Europe/Amsterdam] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php:830
+Stack trace:
+#0 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(830): ReflectionClass->__construct('view')
+#1 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(712): Illuminate\Container\Container->build('view')
+#2 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(841): Illuminate\Container\Container->resolve('view', Array, true)
+#3 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(651): Illuminate\Foundation\Application->resolve('view', Array)
+#4 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(826): Illuminate\Container\Container->make('view', Array)
+#5 /home/propltqo/p in /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 832
+[28-Dec-2021 07:28:34 Europe/Amsterdam] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php:830
+Stack trace:
+#0 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(830): ReflectionClass->__construct('view')
+#1 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(712): Illuminate\Container\Container->build('view')
+#2 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(841): Illuminate\Container\Container->resolve('view', Array, true)
+#3 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(651): Illuminate\Foundation\Application->resolve('view', Array)
+#4 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(826): Illuminate\Container\Container->make('view', Array)
+#5 /home/propltqo/p in /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 832
+[28-Dec-2021 07:29:12 Europe/Amsterdam] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php:830
+Stack trace:
+#0 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(830): ReflectionClass->__construct('view')
+#1 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(712): Illuminate\Container\Container->build('view')
+#2 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(841): Illuminate\Container\Container->resolve('view', Array, true)
+#3 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(651): Illuminate\Foundation\Application->resolve('view', Array)
+#4 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(826): Illuminate\Container\Container->make('view', Array)
+#5 /home/propltqo/p in /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 832
+[28-Dec-2021 07:29:21 Europe/Amsterdam] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php:830
+Stack trace:
+#0 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(830): ReflectionClass->__construct('view')
+#1 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(712): Illuminate\Container\Container->build('view')
+#2 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(841): Illuminate\Container\Container->resolve('view', Array, true)
+#3 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(651): Illuminate\Foundation\Application->resolve('view', Array)
+#4 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(826): Illuminate\Container\Container->make('view', Array)
+#5 /home/propltqo/p in /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 832
+[28-Dec-2021 07:31:04 Europe/Amsterdam] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php:830
+Stack trace:
+#0 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(830): ReflectionClass->__construct('view')
+#1 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(712): Illuminate\Container\Container->build('view')
+#2 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(841): Illuminate\Container\Container->resolve('view', Array, true)
+#3 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(651): Illuminate\Foundation\Application->resolve('view', Array)
+#4 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(826): Illuminate\Container\Container->make('view', Array)
+#5 /home/propltqo/p in /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 832
+[28-Dec-2021 07:36:52 Europe/Amsterdam] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php:830
+Stack trace:
+#0 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(830): ReflectionClass->__construct('view')
+#1 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(712): Illuminate\Container\Container->build('view')
+#2 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(841): Illuminate\Container\Container->resolve('view', Array, true)
+#3 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(651): Illuminate\Foundation\Application->resolve('view', Array)
+#4 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(826): Illuminate\Container\Container->make('view', Array)
+#5 /home/propltqo/p in /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 832
+[28-Dec-2021 07:36:54 Europe/Amsterdam] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php:830
+Stack trace:
+#0 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(830): ReflectionClass->__construct('view')
+#1 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(712): Illuminate\Container\Container->build('view')
+#2 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(841): Illuminate\Container\Container->resolve('view', Array, true)
+#3 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(651): Illuminate\Foundation\Application->resolve('view', Array)
+#4 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(826): Illuminate\Container\Container->make('view', Array)
+#5 /home/propltqo/p in /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 832
+[28-Dec-2021 07:37:32 Europe/Amsterdam] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php:830
+Stack trace:
+#0 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(830): ReflectionClass->__construct('view')
+#1 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(712): Illuminate\Container\Container->build('view')
+#2 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(841): Illuminate\Container\Container->resolve('view', Array, true)
+#3 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(651): Illuminate\Foundation\Application->resolve('view', Array)
+#4 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(826): Illuminate\Container\Container->make('view', Array)
+#5 /home/propltqo/p in /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 832
+[28-Dec-2021 07:41:04 Europe/Amsterdam] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php:830
+Stack trace:
+#0 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(830): ReflectionClass->__construct('view')
+#1 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(712): Illuminate\Container\Container->build('view')
+#2 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(841): Illuminate\Container\Container->resolve('view', Array, true)
+#3 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(651): Illuminate\Foundation\Application->resolve('view', Array)
+#4 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(826): Illuminate\Container\Container->make('view', Array)
+#5 /home/propltqo/p in /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 832
+[28-Dec-2021 07:41:06 Europe/Amsterdam] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php:830
+Stack trace:
+#0 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(830): ReflectionClass->__construct('view')
+#1 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(712): Illuminate\Container\Container->build('view')
+#2 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(841): Illuminate\Container\Container->resolve('view', Array, true)
+#3 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(651): Illuminate\Foundation\Application->resolve('view', Array)
+#4 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(826): Illuminate\Container\Container->make('view', Array)
+#5 /home/propltqo/p in /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 832
+[28-Dec-2021 07:41:08 Europe/Amsterdam] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php:830
+Stack trace:
+#0 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(830): ReflectionClass->__construct('view')
+#1 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(712): Illuminate\Container\Container->build('view')
+#2 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(841): Illuminate\Container\Container->resolve('view', Array, true)
+#3 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(651): Illuminate\Foundation\Application->resolve('view', Array)
+#4 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(826): Illuminate\Container\Container->make('view', Array)
+#5 /home/propltqo/p in /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 832
+[28-Dec-2021 07:43:35 Europe/Amsterdam] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php:830
+Stack trace:
+#0 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(830): ReflectionClass->__construct('view')
+#1 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(712): Illuminate\Container\Container->build('view')
+#2 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(841): Illuminate\Container\Container->resolve('view', Array, true)
+#3 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(651): Illuminate\Foundation\Application->resolve('view', Array)
+#4 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(826): Illuminate\Container\Container->make('view', Array)
+#5 /home/propltqo/p in /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 832
+[28-Dec-2021 07:48:10 Europe/Amsterdam] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php:830
+Stack trace:
+#0 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(830): ReflectionClass->__construct('view')
+#1 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(712): Illuminate\Container\Container->build('view')
+#2 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(841): Illuminate\Container\Container->resolve('view', Array, true)
+#3 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(651): Illuminate\Foundation\Application->resolve('view', Array)
+#4 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(826): Illuminate\Container\Container->make('view', Array)
+#5 /home/propltqo/p in /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 832
+[28-Dec-2021 07:48:13 Europe/Amsterdam] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php:830
+Stack trace:
+#0 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(830): ReflectionClass->__construct('view')
+#1 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(712): Illuminate\Container\Container->build('view')
+#2 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(841): Illuminate\Container\Container->resolve('view', Array, true)
+#3 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(651): Illuminate\Foundation\Application->resolve('view', Array)
+#4 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(826): Illuminate\Container\Container->make('view', Array)
+#5 /home/propltqo/p in /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 832
+[28-Dec-2021 07:49:55 Europe/Amsterdam] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php:830
+Stack trace:
+#0 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(830): ReflectionClass->__construct('view')
+#1 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(712): Illuminate\Container\Container->build('view')
+#2 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(841): Illuminate\Container\Container->resolve('view', Array, true)
+#3 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(651): Illuminate\Foundation\Application->resolve('view', Array)
+#4 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(826): Illuminate\Container\Container->make('view', Array)
+#5 /home/propltqo/p in /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 832
+[28-Dec-2021 07:51:20 Europe/Amsterdam] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php:830
+Stack trace:
+#0 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(830): ReflectionClass->__construct('view')
+#1 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(712): Illuminate\Container\Container->build('view')
+#2 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(841): Illuminate\Container\Container->resolve('view', Array, true)
+#3 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(651): Illuminate\Foundation\Application->resolve('view', Array)
+#4 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(826): Illuminate\Container\Container->make('view', Array)
+#5 /home/propltqo/p in /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 832
+[28-Dec-2021 07:51:25 Europe/Amsterdam] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php:830
+Stack trace:
+#0 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(830): ReflectionClass->__construct('view')
+#1 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(712): Illuminate\Container\Container->build('view')
+#2 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(841): Illuminate\Container\Container->resolve('view', Array, true)
+#3 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(651): Illuminate\Foundation\Application->resolve('view', Array)
+#4 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(826): Illuminate\Container\Container->make('view', Array)
+#5 /home/propltqo/p in /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 832
+[28-Dec-2021 07:53:25 Europe/Amsterdam] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php:830
+Stack trace:
+#0 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(830): ReflectionClass->__construct('view')
+#1 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(712): Illuminate\Container\Container->build('view')
+#2 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(841): Illuminate\Container\Container->resolve('view', Array, true)
+#3 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(651): Illuminate\Foundation\Application->resolve('view', Array)
+#4 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(826): Illuminate\Container\Container->make('view', Array)
+#5 /home/propltqo/p in /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 832
+[28-Dec-2021 07:54:09 Europe/Amsterdam] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php:830
+Stack trace:
+#0 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(830): ReflectionClass->__construct('view')
+#1 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(712): Illuminate\Container\Container->build('view')
+#2 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(841): Illuminate\Container\Container->resolve('view', Array, true)
+#3 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(651): Illuminate\Foundation\Application->resolve('view', Array)
+#4 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(826): Illuminate\Container\Container->make('view', Array)
+#5 /home/propltqo/p in /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 832
+[28-Dec-2021 07:54:51 Europe/Amsterdam] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php:830
+Stack trace:
+#0 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(830): ReflectionClass->__construct('view')
+#1 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(712): Illuminate\Container\Container->build('view')
+#2 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(841): Illuminate\Container\Container->resolve('view', Array, true)
+#3 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(651): Illuminate\Foundation\Application->resolve('view', Array)
+#4 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(826): Illuminate\Container\Container->make('view', Array)
+#5 /home/propltqo/p in /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 832
+[28-Dec-2021 07:54:53 Europe/Amsterdam] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php:830
+Stack trace:
+#0 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(830): ReflectionClass->__construct('view')
+#1 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(712): Illuminate\Container\Container->build('view')
+#2 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(841): Illuminate\Container\Container->resolve('view', Array, true)
+#3 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(651): Illuminate\Foundation\Application->resolve('view', Array)
+#4 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(826): Illuminate\Container\Container->make('view', Array)
+#5 /home/propltqo/p in /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 832
+[28-Dec-2021 07:55:18 Europe/Amsterdam] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php:830
+Stack trace:
+#0 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(830): ReflectionClass->__construct('view')
+#1 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(712): Illuminate\Container\Container->build('view')
+#2 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(841): Illuminate\Container\Container->resolve('view', Array, true)
+#3 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(651): Illuminate\Foundation\Application->resolve('view', Array)
+#4 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(826): Illuminate\Container\Container->make('view', Array)
+#5 /home/propltqo/p in /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 832
+[28-Dec-2021 07:57:38 Europe/Amsterdam] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php:830
+Stack trace:
+#0 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(830): ReflectionClass->__construct('view')
+#1 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(712): Illuminate\Container\Container->build('view')
+#2 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(841): Illuminate\Container\Container->resolve('view', Array, true)
+#3 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(651): Illuminate\Foundation\Application->resolve('view', Array)
+#4 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(826): Illuminate\Container\Container->make('view', Array)
+#5 /home/propltqo/p in /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 832
+[28-Dec-2021 08:06:06 Europe/Amsterdam] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php:830
+Stack trace:
+#0 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(830): ReflectionClass->__construct('view')
+#1 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(712): Illuminate\Container\Container->build('view')
+#2 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(841): Illuminate\Container\Container->resolve('view', Array, true)
+#3 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(651): Illuminate\Foundation\Application->resolve('view', Array)
+#4 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(826): Illuminate\Container\Container->make('view', Array)
+#5 /home/propltqo/p in /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 832
+[28-Dec-2021 08:06:31 Europe/Amsterdam] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php:830
+Stack trace:
+#0 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(830): ReflectionClass->__construct('view')
+#1 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(712): Illuminate\Container\Container->build('view')
+#2 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(841): Illuminate\Container\Container->resolve('view', Array, true)
+#3 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(651): Illuminate\Foundation\Application->resolve('view', Array)
+#4 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(826): Illuminate\Container\Container->make('view', Array)
+#5 /home/propltqo/p in /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 832
+[28-Dec-2021 08:06:33 Europe/Amsterdam] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php:830
+Stack trace:
+#0 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(830): ReflectionClass->__construct('view')
+#1 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(712): Illuminate\Container\Container->build('view')
+#2 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(841): Illuminate\Container\Container->resolve('view', Array, true)
+#3 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(651): Illuminate\Foundation\Application->resolve('view', Array)
+#4 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(826): Illuminate\Container\Container->make('view', Array)
+#5 /home/propltqo/p in /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 832
+[28-Dec-2021 07:07:07 UTC] PHP Notice:  Undefined variable: request in /home/propltqo/public_html/ai_solutions/public/index.php on line 59
+[28-Dec-2021 07:07:07 UTC] PHP Notice:  Undefined variable: response in /home/propltqo/public_html/ai_solutions/public/index.php on line 59
+[28-Dec-2021 07:07:07 UTC] PHP Fatal error:  Uncaught Error: Call to a member function route() on null in /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php:221
+Stack trace:
+#0 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(194): Illuminate\Foundation\Http\Kernel->gatherRouteMiddleware(NULL)
+#1 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(179): Illuminate\Foundation\Http\Kernel->terminateMiddleware(NULL, NULL)
+#2 /home/propltqo/public_html/ai_solutions/public/index.php(59): Illuminate\Foundation\Http\Kernel->terminate(NULL, NULL)
+#3 {main}
+  thrown in /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php on line 221
+[28-Dec-2021 08:07:16 Europe/Amsterdam] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php:830
+Stack trace:
+#0 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(830): ReflectionClass->__construct('view')
+#1 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(712): Illuminate\Container\Container->build('view')
+#2 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(841): Illuminate\Container\Container->resolve('view', Array, true)
+#3 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(651): Illuminate\Foundation\Application->resolve('view', Array)
+#4 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(826): Illuminate\Container\Container->make('view', Array)
+#5 /home/propltqo/p in /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 832
+[28-Dec-2021 08:14:01 Europe/Amsterdam] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php:830
+Stack trace:
+#0 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(830): ReflectionClass->__construct('view')
+#1 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(712): Illuminate\Container\Container->build('view')
+#2 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(841): Illuminate\Container\Container->resolve('view', Array, true)
+#3 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(651): Illuminate\Foundation\Application->resolve('view', Array)
+#4 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(826): Illuminate\Container\Container->make('view', Array)
+#5 /home/propltqo/p in /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 832
+[28-Dec-2021 09:02:05 Europe/Amsterdam] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php:830
+Stack trace:
+#0 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(830): ReflectionClass->__construct('view')
+#1 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(712): Illuminate\Container\Container->build('view')
+#2 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(841): Illuminate\Container\Container->resolve('view', Array, true)
+#3 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(651): Illuminate\Foundation\Application->resolve('view', Array)
+#4 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(826): Illuminate\Container\Container->make('view', Array)
+#5 /home/propltqo/p in /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 832
+[28-Dec-2021 14:43:28 Europe/Amsterdam] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php:830
+Stack trace:
+#0 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(830): ReflectionClass->__construct('view')
+#1 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(712): Illuminate\Container\Container->build('view')
+#2 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(841): Illuminate\Container\Container->resolve('view', Array, true)
+#3 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php(651): Illuminate\Foundation\Application->resolve('view', Array)
+#4 /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(826): Illuminate\Container\Container->make('view', Array)
+#5 /home/propltqo/p in /home/propltqo/public_html/ai_solutions/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 832
+[28-Dec-2021 18:50:46 Europe/Amsterdam] PHP Fatal error:  Allowed memory size of 1073741824 bytes exhausted (tried to allocate 1061163008 bytes) in /home/propltqo/public_html/ai_solutions/app/Http/Controllers/UserController.php on line 125

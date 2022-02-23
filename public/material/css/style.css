@@ -1,0 +1,350 @@
+@import url('https://fonts.googleapis.com/css2?family=Muli:ital,wght@0,200;0,300;0,400;0,500;0,700;0,800;0,900;1,400;1,600&display=swap');
+*,html,body {
+    font-family: 'Muli', sans-serif;
+}
+html,body {
+    -webkit-tap-highlight-color: transparent;
+    -webkit-text-size-adjust: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    overflow-x: hidden;
+}
+/* custom classes starts from */
+.color-primary {
+    color: #656ae5;
+} 
+.color-secondary {
+    color: #40ccf3;
+}
+.paragraph-color {
+    color: #797977;
+}
+.image-cover {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.z-1 {
+    z-index: 1;
+}
+.z-2 {
+    z-index: 2;
+}
+.pr-40 {
+    padding-right: 40px;
+}
+.background-gray {
+    background-color: #F7F9F9;
+}
+.view-more {
+    padding: 30px 0 0;
+}
+.view-more a {
+ padding: 10px 30px;
+}
+h1 {
+    font-size: 40px;
+}
+h2 {
+    font-size: 35px;
+}
+h3 {
+    font-size: 25px;
+}
+h4 {
+    font-size: 20px;
+}
+h5 {
+    font-size: 18px;
+}
+h6 {
+    font-size: 16px;
+}
+a:hover {
+    text-decoration: none;
+}
+
+.border-30 {
+    border-radius: 30px;
+}
+/* custom classes starts from */
+/* space between sections and section  css */
+.pricing-box{
+    float:left;
+    width:100%;
+    margin-top:30px;
+    margin-bottom:30px;
+}
+.card.card-custom {
+    height: 250px;
+    float:left;
+    width:100%;
+    background: url(../images/img-28.jpg)no-repeat center;
+    border-radius: 10px 10px 0 0;
+}
+a.text-hover-primary, .text-hover-primary {
+    -webkit-transition: color 0.15s ease, background-color 0.15s ease, border-color 0.15s ease, -webkit-box-shadow 0.15s ease;
+    transition: color 0.15s ease, background-color 0.15s ease, border-color 0.15s ease, -webkit-box-shadow 0.15s ease;
+    transition: color 0.15s ease, background-color 0.15s ease, border-color 0.15s ease, box-shadow 0.15s ease;
+    transition: color 0.15s ease, background-color 0.15s ease, border-color 0.15s ease, box-shadow 0.15s ease, -webkit-box-shadow 0.15s ease;
+}
+.font-size-h3 {
+    font-size: 1.5rem !important;
+}
+.text-dark-75 {
+    color: #3F4254 !important;
+}
+.font-size-lg {
+    font-size: 1.08rem;
+}
+.text-dark-50 {
+    color: #7E8299 !important;
+}
+.font-weight-bold {
+    font-weight: 500 !important;
+}
+.card-rounded {
+    border-radius: 0.42rem;
+}
+.card-spacer {
+    padding: 2rem 2.25rem !important;
+}
+.pl-8, .px-8 {
+    padding-left: 1rem !important;
+}
+.pr-8, .px-8 {
+    padding-right: 1rem !important;
+}
+.pb-6, .py-6 {
+    padding-bottom: 0.5rem !important;
+}
+.pt-6, .py-6 {
+    padding-top: 0.5rem !important;
+}
+.font-size-sm {
+    font-size: 0.925rem;
+}
+.text-muted {
+    color: #B5B5C3 !important;
+}
+.font-size-h4 {
+    font-size: 1.35rem !important;
+}
+.font-weight-bolder {
+    font-weight: 600 !important;
+}
+.card-rounded {
+    border-radius: 0.42rem;
+}
+.card-spacer {
+    padding: 2rem 2.25rem !important;
+}
+.flex-grow-1 {
+    -webkit-box-flex: 1 !important;
+    -ms-flex-positive: 1 !important;
+    flex-grow: 1 !important;
+}
+.text-align{
+    text-align: center;
+}
+.border-bottom{
+    border-bottom:1px solid #cecece;
+}
+.padding-bottom{
+    padding:20px 0;
+}
+.bg-white {
+    margin-bottom: 50px;
+    background-color: #fff !important;
+    box-shadow: 0px 0px 3px 3px rgba(73,73,74,0.09);
+    -webkit-box-shadow: 0px 0px 3px 3px rgba(73,73,74,0.09);
+    float: left;
+    width: 100%;
+    border-radius: 5px;
+    position: relative; 
+}
+.bg-white h3{
+    top:-80px !important;
+}
+button.btn-submit{
+    cursor: pointer;
+}
+button.pricing-btn {
+    background: linear-gradient(60deg,#ffa726,#fb8c00);
+    color: #fff;
+    box-shadow: 0 4px 20px 0 rgba(0,0,0,.14), 0 7px 10px -5px rgba(255,152,0,.4);
+    border: none;
+    width: 100%;
+    height: 41px;
+    border-radius: 5px;
+    margin-top: 15px;
+    margin-bottom: 15px;  
+}
+.color{
+    color:#ffa726;
+}
+button.pricing-btn:hover{
+    border:2px solid #fb8c00;
+    color:#fb8c00;
+    background: #fff;
+}
+h3.top-head {
+    font-size: 18px;
+    background: linear-gradient(60deg,#ffa726,#fb8c00);
+    box-shadow: 0 4px 20px 0 rgba(0,0,0,.14), 0 7px 10px -5px rgba(255,152,0,.4);
+    text-align: center;
+    padding: 12px 10px;
+    border-radius: 5px;
+    position: absolute;
+    width: 100%;
+    top: -55px;
+    color: #fff;
+    left: 0;
+    right: 0;
+}
+button.pricing-btn-purple {
+    background: linear-gradient(60deg,#66bb6a,#43a047);
+    color: #fff;
+    box-shadow: 0 4px 20px 0 rgba(0,0,0,.14), 0 7px 10px -5px rgba(76,175,80,.4);
+    border: none;
+    width: 100%;
+    height: 41px;
+    border-radius: 5px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.color-purple{
+    color:#43a047;
+}
+button.pricing-btn-purple:hover{
+    border:2px solid #43a047;
+    color:#43a047;
+    background: #fff;
+}
+h3.top-head-purple {
+    font-size: 18px;
+    background: linear-gradient(60deg,#66bb6a,#43a047);
+    box-shadow: 0 4px 20px 0 rgba(0,0,0,.14), 0 7px 10px -5px rgba(76,175,80,.4);
+    text-align: center;
+    padding: 12px 10px;
+    border-radius: 5px;
+    position: absolute;
+    width: 100%;
+    top: -55px;
+    color: #fff;
+    left: 0;
+    right: 0;
+}
+button.pricing-btn-red {
+    background: linear-gradient(60deg,#ef5350,#e53935);
+    color: #fff;
+    box-shadow: 0 4px 20px 0 rgba(0,0,0,.14), 0 7px 10px -5px rgba(76,175,80,.4);
+    border: none;
+    width: 100%;
+    height: 41px;
+    border-radius: 5px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.color-red{
+    color:#e53935;
+}
+button.pricing-btn-red:hover{
+    border:2px solid #e53935;
+    color:#e53935;
+    background: #fff;
+}
+h3.top-head-red {
+    font-size: 18px;
+    background: linear-gradient(60deg, #ef5350, #e53935);
+    box-shadow: 0 4px 20px 0 rgba(0,0,0,.14), 0 7px 10px -5px rgba(76,175,80,.4);
+    text-align: center;
+    padding: 12px 10px;
+    border-radius: 5px;
+    position: absolute;
+    width: 100%;
+    top: -55px;
+    color: #fff;
+    left: 0;
+    right: 0;
+}
+button.pricing-btn-blue {
+    background: linear-gradient(60deg,#26c6da,#00acc1);
+    color: #fff;
+    box-shadow: 0 4px 20px 0 rgba(0,0,0,.14), 0 7px 10px -5px rgba(76,175,80,.4);
+    border: none;
+    width: 100%;
+    height: 41px;
+    border-radius: 5px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.color-blue{
+    color:#00acc1;
+}
+button.pricing-btn-blue:hover{
+    border:2px solid #00acc1;
+    color:#00acc1;
+    background: #fff;
+}
+h3.top-head-blue {
+    font-size: 18px;
+    background: linear-gradient(60deg, #26c6da, #00acc1);
+    box-shadow: 0 4px 20px 0 rgba(0,0,0,.14), 0 7px 10px -5px rgba(76,175,80,.4);
+    text-align: center;
+    padding: 12px 10px;
+    border-radius: 5px;
+    position: absolute;
+    width: 100%;
+    top: -55px;
+    color: #fff;
+    left: 0;
+    right: 0;
+}
+button.pricing-btn-bring {
+    background: linear-gradient(60deg,#9c27b0,#9c27b0);
+    color: #fff;
+    box-shadow: 0 4px 20px 0 rgba(0,0,0,.14), 0 7px 10px -5px rgba(76,175,80,.4);
+    border: none;
+    width: 100%;
+    height: 41px;
+    border-radius: 5px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.color-bring{
+    color:#9c27b0;
+}
+button.pricing-btn-bring:hover{
+    border:2px solid #9c27b0;
+    color:#9c27b0;
+    background: #fff;
+}
+h3.top-head-bring {
+    font-size: 18px;
+    background: linear-gradient(60deg, #9c27b0, #9c27b0);
+    box-shadow: 0 4px 20px 0 rgba(0,0,0,.14), 0 7px 10px -5px rgba(76,175,80,.4);
+    text-align: center;
+    padding: 12px 10px;
+    border-radius: 5px;
+    position: absolute;
+    width: 100%;
+    top: -55px;
+    color: #fff;
+    left: 0;
+    right: 0;
+}
+
+/* ends here */
+/* navbar css starts from here */
+
+/* responsive css starts from here */
+/* ========================= */
+@media screen and (max-width:1140px) {
+
+}
+@media screen and (max-width:991px) {
+   
+}
+   

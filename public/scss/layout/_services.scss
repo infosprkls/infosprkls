@@ -1,0 +1,58 @@
+@import '../base/variables';
+@import '../base/mixin';
+.service-header {
+    h2 {
+        color: color(heading-color);
+        font-weight: 400;
+        font-size: 20px;
+    }
+    .content-right {
+        a {
+            i {
+                font-size: 20px;
+            }
+            margin-right: 10px;
+            &:last-child {
+                margin-right: 0
+            }
+        }
+        .btn-theme {
+            @include btn-theme(color(primary-color), #fff);
+            @media screen and (max-width:575px) {
+                border-radius: 50%;
+                padding: 0;
+                width: 40px;
+                height: 40px;
+                justify-content: center;
+            }
+        }
+        .btn-circle {
+            width: 40px;
+            height: 40px;
+            @include btn-theme(darken(color(warning), $amount:20), #fff);
+            i {
+                transform: rotate(0deg);
+                @include transition;
+            }
+            &:hover {
+                i {
+                    transform: rotate(360deg);
+                    @include transition;
+                }
+            }
+            &:active,&:not(.disabled) :active,&.btn-secondary:not(:disabled):not(.disabled):active {
+                background-color:darken(color(warning), $amount:20);
+                border-color:darken(color(warning), $amount:20);
+                color: #fff;
+                box-shadow: none;
+            }
+        }
+    }
+}
+.service-body {
+    padding: 20px 0;
+    .separator {
+        font-size: 16px;
+        color: color(heading-color);
+    }
+}

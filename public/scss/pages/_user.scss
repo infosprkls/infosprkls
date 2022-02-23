@@ -1,0 +1,9 @@
+@import '../layout/structure';
+@import '../layout/card.scss';
+@import "../components/table_header";
+@import '../layout/table';
+@import '../components/multiselect';
+@import '../components/modal';
+*,html,body {
+    font-family: 'Muli', sans-serif;
+}

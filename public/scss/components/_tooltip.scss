@@ -1,0 +1,21 @@
+@import '../base/variables';
+.tooltip.b-tooltip {
+    z-index: 10;
+    .tooltip-inner {
+        background-color: lighten(color(primary-color), $amount:8);
+        color:#fff;
+        padding: 4px 10px;
+    }
+    .arrow {
+        &:before {
+            border-top-color:lighten(color(primary-color), $amount:20);
+        }
+    }
+    &.bs-tooltip-bottom {
+        .arrow {
+            &:before {
+                border-bottom-color:lighten(color(primary-color), $amount:20);
+            }
+        }
+    }
+}

@@ -1,0 +1,104 @@
+@import "../base/variables";
+@import "../base/mixin";
+body {
+    &.overflow {
+        overflow-y: hidden;
+    }
+}
+.side-upload-content {
+    width: 100%;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1000;
+    height: 100%;
+    width: 0;
+    overflow-x: hidden;
+    overflow-y: auto;
+    .upload-content {
+        width: 0;
+        padding: 18px 20px;
+        right: 0;
+        bottom: 0;
+        top: 0;
+        box-shadow: 0 16px 38px -12px rgba(0, 0, 0, 0.56), 0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+        background-color:#fff;
+        transition: all .2s linear;
+        overflow-y: auto;
+        &::-webkit-scrollbar {
+            background-color: color(mobile-sidebar);
+            width: 6px;
+        }
+        &::-webkit-scrollbar-thumb {
+            border-radius: 30px;
+            background-color: color(body-color);
+        }
+        &:hover {
+            &::-webkit-scrollbar-thumb {
+                background-color: darken(color(body-color), $amount: 20);
+            }
+        }
+    }
+    .upload-overlay {
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0,0,0,0.3);
+    }
+    .upload-header, .header {
+        padding-bottom: 10px;
+        border-bottom: 1px solid lighten(color(light-gray), $amount: 8);
+        h4 {
+            color: color(heading-color);
+            font-size: 20px;
+            font-weight: 400;
+        }
+        span {
+            cursor: pointer;
+            transform: rotate(0);
+            color: color(nav-search);
+            font-size: 18px;
+            @include transition;
+            &:hover {
+                transform: rotate(40deg);
+                @include transition;
+            }
+        }
+    }
+    .upload-body {
+        padding: 20px 0;
+        .upload-label {
+            max-width: 530px;
+        }
+        table {
+            @media screen and (max-width:1199px) {
+                min-width: 600px;
+            }
+        }
+    }
+    .save-buttons {
+        .btn {
+            padding: 4px 20px;
+        }
+        .btn-theme {
+            @include btn-theme(color(primary-color), #fff);
+        }
+        .btn-second-theme {
+            @include btn-theme(color(switch), color(input));
+        }
+    }
+    &.side-upload-show {
+        width: 100%;
+        .upload-content {
+            width: 43.99%;
+            max-width: 660px;
+            transition: all .2s linear;
+            @media screen and (max-width:767px) {
+                width: 95%;
+            }
+            &.side-upload-hide {
+                    width:0;
+                    padding: 0;
+            }
+        }
+    }
+}

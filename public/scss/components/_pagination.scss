@@ -1,0 +1,51 @@
+@import "../base/variables";
+%gray-color {
+    color: color(nav-search);
+}
+.custom-pagination {
+    padding-bottom: 10px;
+    ul {
+        .page-item {
+            align-self: center;
+            span {
+                padding: 0 10px;
+                border: 0;
+                font-size: 14px;
+                @extend %gray-color;
+            }
+            button {
+                border: 0;
+                padding: 0 4px;
+                font-size: 14px;
+                @extend %gray-color;
+                &:hover {
+                    @extend %gray-color;
+                }
+                &[role="menuitemradio"] {
+                    padding: 0;
+                    width: 26px;
+                    height: 26px;
+                    line-height: 26px;
+                    border-radius: 50%;
+                }
+            }
+            &.active {
+                button {
+                    background-color: transparent;
+                    color: color(primary-color);
+                    &[role="menuitemradio"] {
+                        background-color: color(primary-color);
+                        color: #fff;
+                        box-shadow: 0 4px 5px 0 rgba(156, 39, 176, 0.14), 0 1px 10px 0 rgba(156, 39, 176, 0.12), 0 2px 4px -1px rgba(156, 39, 176, 0.2);
+                        &:hover {
+                            color: #fff;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    @media screen and (max-width:575px) {
+        width: 100%;
+    }
+}

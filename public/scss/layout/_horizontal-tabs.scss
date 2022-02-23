@@ -1,0 +1,76 @@
+@import "../base/variables";
+@import '../base/mixin';
+.horizontal-tabs {
+    margin-top: 10px;
+    ul {
+        li {
+            display: inline-block;
+            a, .b-dropdown .dropdown-toggle div {
+                border-radius: 4px;
+                color: #fff;
+                padding: 9px 14px;
+                font-size: 13px;
+                font-weight: 500;
+                opacity: 0.7;
+                @include transition;
+                i {
+                    font-size: 20px;
+                }
+                &.active {
+                    background-color: lighten(color(primary-color), $amount: 20);
+                    opacity: 1;
+                    transition: background-color 0.8s linear;
+                }
+                &:hover {
+                    opacity: 1;
+                }
+            }
+            .b-dropdown  {
+                .dropdown-toggle {
+                    max-height: 38px;
+                    top: -5px;
+                    .button-dropdown {
+                        padding-right: 30px;
+                    }
+                    i.material-icons {
+                        color: #fff;
+                    }
+                    &:after {
+                        top: 45%;
+                        right: 12px;
+                        position: absolute;
+                        border-width: 5px;
+                        color: #fff;
+                    }
+                }
+                .dropdown-menu {
+                    li {
+                        display: block;
+                        a {
+                            min-width: 174px;
+                            color: color(input);
+                        }
+                        &.active {
+                            a {
+                                background-color: color(primary-color);
+                                color: #fff;
+                                opacity: 1;
+                            }
+                        }
+                    }
+                }
+            }
+
+        }
+        @media screen and (max-width:1195px) {
+            white-space: nowrap;
+            overflow-x: scroll;
+        }
+    }
+}    
+.fade-enter-active, .fade-leave-active {
+  transition: opacity .5s;
+}
+.fade-enter, .fade-leave-to {
+  opacity: 0;
+}

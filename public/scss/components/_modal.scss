@@ -1,0 +1,192 @@
+@import '../base/variables';
+@import '../base/mixin';
+%icon_size {
+    width: 88px;
+    height: 88px;
+    font-size: 60px;
+    margin: 20px auto 30px;
+}
+%gray-color {
+  color: color(light-gray);
+}
+.basic-modal {
+  .modal-header {
+    h4 {
+      color: color(gray-color);
+    }
+    button {
+      transform: rotate(0deg);
+      @include transition;
+      &:hover {
+        transform: rotate(40deg);
+        @include transition;
+      }
+    }
+  }
+  .modal-body {
+    padding:0;
+    .modal-body-wrapper {
+      padding: 1rem;
+    }
+    .key-wrapper {
+      @media screen and (max-width:425px) {
+        padding: 0;
+      }
+    }
+    .key-header {
+      margin: 8px 0 10px;
+      span {
+        color: color(gray-color);
+      }
+      h6 {
+        font-size: 14px;
+        @extend %gray-color;
+        font-weight: 400;
+      }
+    }
+    .key-body {
+      span {
+        @extend %gray-color;
+        font-size: 15px;
+      }
+      .textual-area {
+        width: calc(100% - 44px);
+        padding-left: 10px;
+        font-size: 14px;
+        color: color(input);
+        .v-md-editor {
+          margin-top: 5px;
+          .v-md-editor__right-area {
+            width: 100%;
+          }
+        }
+        @media screen and (max-width:575px) {
+          width: 100%;
+          padding-left: 0;
+        }
+      }
+    }
+    .editor-heading {
+      margin-bottom: 14px;
+      color: color(heading-color);
+      font-size: 20px;
+      font-weight: 400;
+    }
+    .side-logging {
+      border-left: 1px solid lighten(color(light-gray), $amount: 20);
+      .logging-history  {
+        padding-left: 14px;
+        @media screen and (max-width:1199px) {
+          padding-left: 0;
+        }
+      }
+      .logging-history-wrapper {
+        background-color: #fff;
+        border-radius: 4px;
+        padding: 20px 14px;
+        max-height: 200px;
+        overflow-y: auto;
+        box-shadow: -2px 2px 3px rgba(165, 162, 162, 0.3), 1px 0px 4px rgba(158, 156, 156, 0.3);
+        &::-webkit-scrollbar {
+            background-color: color(mobile-sidebar);
+            width: 6px;
+        }
+        &::-webkit-scrollbar-thumb {
+            border-radius: 30px;
+            background-color: #fff;
+        }
+        &:hover {
+            &::-webkit-scrollbar-thumb {
+                background-color: darken(color(body-color), $amount: 20);
+            }
+        }
+      }
+      p {
+        margin-bottom: 0;
+        font-size: 14px;
+        color: color(heading-color);
+        &.new {
+          color: color(primary-color);
+          font-weight: 500;
+          padding-top: 4px;
+        }
+      }
+      @media screen and (max-width:1199px) {
+        border: none;
+      }
+    }
+    .px-small-0 {
+      @media screen and (max-width:575px) {
+          padding: 0;
+        }
+    }
+    .footer-btn {
+      button {
+        font-size: 12px;
+        padding: 9px 24px;
+        &.btn-theme {
+          @include btn-theme(color(primary-color), #fff);
+        }
+        &.btn-cancel {
+          @include btn-theme(color(nav-search), #fff);
+        }
+        .spinner-border {
+          width: 18px;
+          height: 18px;
+          margin-right: 6px;
+        }
+        &:last-child {
+          margin: 0.3125rem 1rem 0.3125rem 0.2rem;
+        }
+      }
+    }
+  }
+}
+.delete-poup {
+  animation: bounce-in .5s;
+  .modal-body {
+    padding: 1.5rem;
+    .warning {
+        @extend %icon_size;
+        border: 4px solid color(warning);
+        color: color(warning);
+    }
+    .danger {
+        @extend %icon_size;
+        border: 4px solid color(action-cancel);
+        color: color(action-cancel);
+        span {
+            font-size: 60px;
+        }
+    }
+    h2 {
+        font-size: 30px;
+        color: color(gray-color);
+        font-weight: 600;
+    }
+    p {
+        font-size: 18px;
+        color: color(gray-color);
+        padding: 8px 0 22px;
+    }
+    .btn {
+        font-size: 12px;
+        padding: 12px 30px;
+        &.btn-primary {
+            padding: 10.62px 34px;
+            font-size: 17px;
+        }
+    }
+  }
+}
+@keyframes bounce-in {
+  0% {
+    transform: scale(0);
+  }
+  50% {
+    transform: scale(1.5);
+  }
+  100% {
+    transform: scale(1);
+  }
+}

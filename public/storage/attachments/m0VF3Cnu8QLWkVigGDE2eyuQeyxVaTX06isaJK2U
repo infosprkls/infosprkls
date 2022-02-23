@@ -1,0 +1,14 @@
+@echo off
+cls
+echo 1. DHCP
+echo 2. Static (Fixed)
+set /p choice=Enter your choice:
+if "%choice%"=="2" goto Static
+netsh interface ipv4 set address name="Ethernet" source=dhcp
+ipconfig /renew Ethernet
+exit
+:Static
+netsh interface ipv4 set address name="Ethernet" source=dhcp
+ipconfig /renew Ethernet
+netsh interface ip set address "Ethernet" static 10.5.50.253 255.255.0.0 10.5.50.1 1
+ping localhost -n 2
